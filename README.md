@@ -40,4 +40,4 @@ The app itself is relatively simple.
 - Deployed API:
 
 ## Wireframe
-![Home Page]
+![Home Page](https://i.postimg.cc/MGydc9Nr/Desktop-Screenshot-2021-03-23-13-00-22-37.png)](https://postimg.cc/p9LD4J2D)
