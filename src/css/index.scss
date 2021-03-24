@@ -16,6 +16,19 @@ body {
 .logo {
   color: #ffffff;
   font-family: 'Architects Daughter', serif;
-  font-size: 2vw;
+  font-size: 50px;
   font-weight: bold;
+}
+
+.container {
+  display: flex;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  position: absolute;
+}
+
+.joke {
+  color: #ffffff;
+  text-align: center;
 }

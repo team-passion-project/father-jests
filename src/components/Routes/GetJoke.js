@@ -17,7 +17,7 @@ function GetJoke() {
   }, [])
 
   return (
-    <div>
+    <div className="joke">
       <h1>{joke}</h1>
     </div>
   )
