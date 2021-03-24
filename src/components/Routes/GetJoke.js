@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
-import button from 'react-bootstrap/Button'
+import Button from 'react-bootstrap/Button'
 
 function GetJoke() {
   const [joke, newJoke] = useState("")
@@ -11,7 +11,6 @@ function GetJoke() {
         url: "https://icanhazdadjoke.com/",
         headers: {Accept: "application/json"}
       })
-      console.log(result.data);
       newJoke(`${result.data.joke}`)
     }
     getJoke()
@@ -20,19 +19,18 @@ function GetJoke() {
   return (
     <div className="joke">
       <h2>{joke}</h2>
-      <button type="button" class="btn btn-danger" onClick={() => 
+      <Button type="button" class="btn btn-danger" onClick={() => 
         {
           const getJoke = async() => {
             const result = await axios({
               url: "https://icanhazdadjoke.com/",
               headers: {Accept: "application/json"}
             })
-            console.log(result.data);
             newJoke(`${result.data.joke}`)
           }
           getJoke()
         }
-      }>Get a new Joke</button>
+      }>Get a new Joke</Button>
     </div>
   )
 }
