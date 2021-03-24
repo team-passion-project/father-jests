@@ -6,18 +6,19 @@ function GetJoke() {
 
   useEffect(() => {
     const getJoke = async() => {
-      const result = await axios(
-        'https://icanhazdadjoke.com/'
-      )
+      const result = await axios({
+        url: "https://icanhazdadjoke.com/",
+        headers: {Accept: "application/json"}
+      })
       console.log(result.data);
-      newJoke(`${result.data[0].joke}`)
+      newJoke(`${result.data.joke}`)
     }
     getJoke()
   }, [])
 
   return (
     <div>
-      <h2>{joke}</h2>
+      <h1>{joke}</h1>
     </div>
   )
 }
