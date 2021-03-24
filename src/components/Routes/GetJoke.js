@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
+import Button from 'react-bootstrap/Button'
 
 function GetJoke() {
   const [joke, newJoke] = useState("")
@@ -17,8 +18,9 @@ function GetJoke() {
   }, [])
 
   return (
-    <div className="joke">
-      <h1>{joke}</h1>
+    <div className="jokes">
+      <h2>{joke}</h2>
+      <button type="button" class="btn btn-danger" onClick={getJoke}>Get a new Joke</button>
     </div>
   )
 }
