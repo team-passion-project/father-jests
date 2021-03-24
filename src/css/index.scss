@@ -1,0 +1,21 @@
+$primary: #4169e1;
+
+// @import '~bootstrap/scss/bootstrap';
+
+body {
+  display: flex;
+  background-color: $primary
+}
+
+.navbar-header {
+  transform: translateX(-50%);
+  left: 50%;
+  position: absolute;
+}
+
+.logo {
+  color: #ffffff;
+  font-family: 'Architects Daughter', serif;
+  font-size: 2vw;
+  font-weight: bold;
+}
