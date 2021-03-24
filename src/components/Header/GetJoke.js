@@ -2,21 +2,18 @@ import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 
 function GetJoke() {
-  const [joke, newJoke] = useState(null)
+  const [joke, newJoke] = useState("")
 
   useEffect(() => {
-    axios({
-      url: 'https://icanhazdadjoke.com/',
-      method: 'GET',
-      data: { joke }
-    })
-      .then(res => {
-        console.log(res);
-        newJoke(res.data.joke)
-        console.log(newJoke);
-      })
-      .catch(console.error)
-  })
+    const getJoke = async() => {
+      const result = await axios(
+        'https://icanhazdadjoke.com/'
+      )
+      console.log(result.data);
+      newJoke(`${result.data[0].joke}`)
+    }
+    getJoke()
+  }, [])
 
   return (
     <div>
