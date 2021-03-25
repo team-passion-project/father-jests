@@ -4,24 +4,20 @@
 1. Fork and clone this repository.
 2. Change into this directory
 3. Create and checkout a new branch.
-4. run npm install
-5. run npm install sass
-6. use npm start to run the server and see changes in real time.
-Note: This repo is set to run with the api mentioned above, if you would like to use a different api, make changes to apiConfig.js
+4. run `npm install`
+5. run `npm install sass`
+6. use `npm start` to run the server and see changes in real time.
+
 
 ## Planning Story
-
-
-This app is intended to be used with our [API]
-
-The app itself is relatively simple.
-
+The main goal of this project was to focus on areas that we wanted more experience
+working on  to continue to improve our skills. We all also wanted more work
+connecting with a third part apis. We decided to go a fun route and created a dad
+joke generator that is connected to a [Dad Joke API](https://icanhazdadjoke.com/api).
 ## User Stories
 
-- As an unregistered user, I would like to sign up with email and password.
-- As a registered user, I would like to sign in with email and password.
-- As a signed in user, I would like to change password.
-- As a signed in user, I would like to sign out.
+- As a user, I want to be able to get a dad joke when I load the page
+- As a user, I want to be able to get a new dad joke when I click new joke
 
 
 ## Technologies Used
@@ -31,11 +27,9 @@ The app itself is relatively simple.
 - React-Bootstrap
 - SASS
 
-## Unsolved Problems/Planned Updates
-
 ## Relevant Links
 
-- Deployed Client:
+- [Deployed Client](https://team-passion-project.github.io/father-jests/)
 
 ## Wireframe
 ![Home Page](https://i.postimg.cc/MGydc9Nr/Desktop-Screenshot-2021-03-23-13-00-22-37.png)
