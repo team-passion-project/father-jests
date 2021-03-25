@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/father-jests/static/css/main.bd18a6e8.chunk.css",
+    "main.js": "/father-jests/static/js/main.38788242.chunk.js",
+    "main.js.map": "/father-jests/static/js/main.38788242.chunk.js.map",
+    "runtime-main.js": "/father-jests/static/js/runtime-main.a2a47284.js",
+    "runtime-main.js.map": "/father-jests/static/js/runtime-main.a2a47284.js.map",
+    "static/js/2.de20ee73.chunk.js": "/father-jests/static/js/2.de20ee73.chunk.js",
+    "static/js/2.de20ee73.chunk.js.map": "/father-jests/static/js/2.de20ee73.chunk.js.map",
+    "static/js/3.15c47ead.chunk.js": "/father-jests/static/js/3.15c47ead.chunk.js",
+    "static/js/3.15c47ead.chunk.js.map": "/father-jests/static/js/3.15c47ead.chunk.js.map",
+    "index.html": "/father-jests/index.html",
+    "static/css/main.bd18a6e8.chunk.css.map": "/father-jests/static/css/main.bd18a6e8.chunk.css.map",
+    "static/js/2.de20ee73.chunk.js.LICENSE.txt": "/father-jests/static/js/2.de20ee73.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a2a47284.js",
+    "static/js/2.de20ee73.chunk.js",
+    "static/css/main.bd18a6e8.chunk.css",
+    "static/js/main.38788242.chunk.js"
+  ]
+}
