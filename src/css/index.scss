@@ -1,0 +1,37 @@
+$primary: #4169e1;
+
+@import '~bootstrap/scss/bootstrap';
+
+body {
+  background-image: url("https://images.unsplash.com/photo-1591729651527-4d09a51b1e2c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.navbar {
+  font-family: 'Architects Daughter', serif;
+  justify-content: center;
+  font-weight: 500px;
+}
+
+.logo {
+  font-weight: bold;
+}
+
+.card {
+  display: flex;
+  padding: 25px;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  position: absolute;
+  border-radius: 25px;
+  text-align: center;
+}
+
+.btn {
+  margin-top: 30px;
+  border-radius: 20px;
+  cursor: pointer;
+}
