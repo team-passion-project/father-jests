@@ -5,7 +5,8 @@
 2. Change into this directory
 3. Create and checkout a new branch.
 4. run npm install
-5. use npm start to run the server and see changes in real time.
+5. run npm install sass
+6. use npm start to run the server and see changes in real time.
 Note: This repo is set to run with the api mentioned above, if you would like to use a different api, make changes to apiConfig.js
 
 ## Planning Story
