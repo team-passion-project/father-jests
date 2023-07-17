@@ -12,7 +12,7 @@
 ## Planning Story
 The main goal of this project was to focus on areas that we wanted more experience
 working on  to continue to improve our skills. We all also wanted more work
-connecting with a third part apis. We decided to go a fun route and created a dad
+connecting with a third party apis. We decided to go a fun route and created a dad
 joke generator that is connected to a [Dad Joke API](https://icanhazdadjoke.com/api).
 ## User Stories
 
